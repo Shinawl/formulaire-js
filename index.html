@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+  <div class="content">
+    <div class="main-block">
+      <h1>Inscription</h1>
+      <form method="POST" name="inscription" id="inscription">
+        <input type="text" name="pseudo" placeholder="Pseudo" id="pseudo"><br>
+        <input type="email" name="email" placeholder="Email" id="email"><br>
+        <input type="email" name="email-confirmation" placeholder="Confirmation de l'email" id="email2"><br>
+        <input type="password" name="mdp" placeholder="Mot de passe" id="mdp"><br>
+        <div class="btn-block">
+          <button type="submit">Inscription</button>
+        </div>
+      </form>
+    </div>
+    <p style="color: red;" id="erreur"></p>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
